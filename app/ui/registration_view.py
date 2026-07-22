@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdi
 from app.utils.widget_factory import create_input, create_label, create_button
 from app.app_state import email_confirmation_code_users
 from app.services.email_verification_service import submission_push_code
-from app.services.user_registration_service import processing_registration_data
+from app.services.auth_service import processing_registration_data
 from app.utils.navigation_manager import close_reg_and_open_login
 
 

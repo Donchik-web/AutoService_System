@@ -3,7 +3,7 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 
 from app.utils.widget_factory import create_label, create_input
-from app.services.car_registration_service import processing_car_data
+from app.services.car_service import processing_car_data
 
 
 def build_car_parameters_form(parent: QWidget, user_id) -> None:
